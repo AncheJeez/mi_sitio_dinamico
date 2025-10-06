@@ -1,6 +1,6 @@
 <header class="text-center bg-white p-3 rounded shadow-sm">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
-  <h1 class="text-primary">🌟 Bienvenido a mi primer sitio PHP 🌟</h1>
+  <h1 class="text-primary">🌟 Bienvenido a Camas 🌟</h1>
   <p class="text-muted">Usando include() por primera vez</p>
 </header>
 
