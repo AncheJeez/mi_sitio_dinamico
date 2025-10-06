@@ -17,7 +17,7 @@ $productos = [
     </tr>
   </thead>
   <tbody>
-    <?php while ($productos as $nombre => $precio): ?>
+    <?php foreach ($productos as $nombre => $precio): ?>
       <tr>
         <td><?= htmlspecialchars($nombre) ?></td>
         <td><?= number_format($precio, 2, ',', '.') ?></td>
