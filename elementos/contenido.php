@@ -3,7 +3,8 @@
 $productos = [
   "Pan de Camas"        => 1.20,
   "Aceitunas aliñadas"  => 2.50,
-  "Tortas de aceite"    => 3.00
+  "Tortas de aceite"    => 3.00,
+  "Tortilla de patatas"  => 4.00
 ];
 ?>
 
