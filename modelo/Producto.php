@@ -18,13 +18,22 @@ class Producto extends Entidad
 {
   
     public function __construct(
-    public string $nombre,
-    public float $precio
-  ) {}
+        public string $nombre,
+        public float $precio,
+        public int $stock,
+        public string $descripcion
+    ) {
+        $this->stock = self::checkIfAboveZero($stock) ? $stock : 0;
+
+    }
   
     public static function vacio(): self
     {
-        return new self("", 0.0);
+        return new self("", 0.0, 0, "");
+    }
+
+    public static function checkIfAboveZero(int|float $stock): bool{
+        return $stock >= 0;
     }
   
     /**
@@ -35,7 +44,9 @@ class Producto extends Entidad
         return [
             'id'      => $this->getId(),
             'nombre'  => $this->nombre,
-            'precio'     => $this->precio
+            'precio'     => $this->precio,
+            'stock'     => $this->stock,
+            'descripcion'   => $this->descripcion
         ];
     }
 }

@@ -14,6 +14,7 @@ USE tienda_php;
 
 -- 2️⃣ Crear tabla 'usuarios'
 DROP TABLE IF EXISTS usuarios;
+DROP TABLE IF EXISTS productos;
 
 CREATE TABLE usuarios (
     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -21,11 +22,13 @@ CREATE TABLE usuarios (
     password VARCHAR(255) NOT NULL,
     nombre VARCHAR(100) NOT NULL,
     rol ENUM('admin','manager','usuario') DEFAULT 'usuario',
-    creado_en TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    creado_en DATETIME DEFAULT NOW()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 CREATE TABLE productos (
   id INT AUTO_INCREMENT PRIMARY KEY,
   nombre VARCHAR(50) NOT NULL,
-  precio DOUBLE NOT NULL
+  precio DOUBLE NOT NULL,
+  stock INT NOT NULL,
+  descripcion VARCHAR(50) NOT NULL
 )ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
