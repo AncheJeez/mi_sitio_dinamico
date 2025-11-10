@@ -26,7 +26,7 @@ final class ProductoDAO extends DAO
 
         $id = $entidad->getId();
         if (empty($id)) {
-            $sql = "INSERT INTO {$this->tabla} (nombre, precio, stock, descripcion) VALUES (:n, :p)";
+            $sql = "INSERT INTO {$this->tabla} (nombre, precio, stock, descripcion) VALUES (:n, :p, :s, :d)";
             $st  = $this->pdo->prepare($sql);
             $ok  = $st->execute([':n'=>$entidad->nombre, ':p'=>$entidad->precio, ':s'=>$entidad->stock, ':d'=>$entidad->descripcion]);
             if ($ok) { $entidad->setId((int)$this->pdo->lastInsertId()); }

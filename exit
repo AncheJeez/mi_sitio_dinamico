@@ -1,0 +1,19 @@
+[33m6ad76ba[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mProductoDAO_Manager[m[33m, [m[1;31morigin/ProductoDAO_Manager[m[33m, [m[1;32mfeature/producto-stock-descripcion[m[33m)[m añadido cambios stock y descripcion a productos
+[33m12ee3b3[m[33m ([m[1;31mupstream/ProductoDAO_Manager[m[33m)[m producto manager con editar
+[33m4065460[m permite agregado
+[33mff488ec[m Server Session IP
+[33mc73f7ed[m ProductoDAO_Producto_Listar
+[33m0b1dd18[m[33m ([m[1;31mupstream/DAO[m[33m)[m agregado listado de usuarios para admin
+[33m55ff520[m[33m ([m[1;31mupstream/login[m[33m)[m pruebas
+[33m306dbf8[m actualizado xss
+[33me995af9[m Se pueden crear datos desde Contacto usando Datos.php y realizar login
+[33m2a39ef7[m[33m ([m[1;31mupstream/variableGlobal_Server[m[33m)[m xss pagina para ver que es htmlspecialchars
+[33mf48d39d[m añadido constante con define
+[33m6714984[m agregado pestaña Server para info de variable global
+[33m96e8de3[m[33m ([m[1;31mupstream/login_fake[m[33m)[m login_fake
+[33m1676faf[m[33m ([m[1;31mupstream/main[m[33m, [m[1;31mupstream/HEAD[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m menu
+[33m7ef9ce1[m proyecto incial
+[33m4a36a19[m Update README.md
+[33m34b506d[m Update README.md
+[33m9d737ae[m Update README.md
+[33md903ced[m Create README.md
